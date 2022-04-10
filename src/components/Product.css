@@ -1,0 +1,13 @@
+.Product {
+  display: flex;
+  color: black;
+}
+.Product > p {
+  width: 70%;
+}
+.Count {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
