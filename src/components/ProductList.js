@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./ProductList.css";
-import Product from "./Product";
+import Product from "./Product/";
 const ProductList = () => {
   const [numberOfLemons, updateNumberOfLemons] = useState(0);
   const [amountOfSugar, updateAmountOfSugar] = useState(0);
